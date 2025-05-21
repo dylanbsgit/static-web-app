@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background: #f0f0f0;
+    background: #ffe3b0;
 }
 nav {
     text-align: center;
@@ -17,6 +17,14 @@ h1 {
 .gallery {
     text-align: center;
 }
+.animal-card-double {
+    background: white;
+    border: 1px solid gray;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+}
 .animal-card {
     background: white;
     border: 1px solid gray;
@@ -24,6 +32,10 @@ h1 {
     margin: 10px;
     padding: 10px;
     width: 200px;
+}
+.animal-card-double img {
+    width: 180px;
+    height: 140px;
 }
 .animal-card img {
     width: 180px;
